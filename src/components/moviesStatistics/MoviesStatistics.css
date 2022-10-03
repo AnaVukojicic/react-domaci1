@@ -1,0 +1,19 @@
+.statistics-table{
+    margin: 32px;
+}
+
+.statistics-table, .statistics-table td, .statistics-table tbody{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 16px;
+}
+
+.statisctics-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.statistics-image{
+    width: 25%;
+    margin: 15px;
+}

@@ -1,0 +1,26 @@
+.card{
+    box-shadow: 5px 5px 15px black;
+    border-radius: 5px;
+    margin: 25px;
+    width: 25%;
+    transition: 1s ease-in-out;
+}
+
+.card:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.15);
+}
+
+.movie-title{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-info{
+    padding: 11px;
+}

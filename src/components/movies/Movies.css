@@ -1,0 +1,22 @@
+.button{
+    border: 0;
+    padding: 30px 5px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+}
+
+.button:hover{
+    background-color: yellow;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+.button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
